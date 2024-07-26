@@ -11,7 +11,8 @@ export default [
     name: '表单页',
     icon: 'form',
     routes: [
-      { path: '/form', name: '新增表单', component: './Form' },
+      { path: '/form/add-form', name: '新增表单', component: './Form' },
+      { path: '/form/mock-data', name: '测试数据', component: './Form/DataPage' },
     ],
   },
   { path: '/', redirect: '/welcome' },
