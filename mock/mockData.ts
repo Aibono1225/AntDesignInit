@@ -14,8 +14,8 @@ const proxy = {
               name: '@name',
             },
           ],
-          totalCount: 100,
         },
+        totalCount: 100,
       }),
     );
   },
