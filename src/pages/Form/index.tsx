@@ -13,7 +13,7 @@ import { Card } from 'antd';
 
 export default () => {
   return (
-    <PageContainer title="输入表单">
+    <PageContainer title={false}>
       <Card>
         <ProForm onFinish={async (values) => console.log(values)}>
           <ProForm.Group>

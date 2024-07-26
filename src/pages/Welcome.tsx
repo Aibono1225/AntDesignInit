@@ -6,7 +6,7 @@ const Welcome: React.FC = () => {
   const { token } = theme.useToken();
 
   return (
-    <PageContainer>
+    <PageContainer title={false}>
       <Card
         style={{
           borderRadius: 8,
